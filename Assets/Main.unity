@@ -361,6 +361,11 @@ MonoBehaviour:
   - {fileID: 1188585439}
   - {fileID: 218585250}
   - {fileID: 1283235741}
+  options:
+  - Option 3 option1
+  - Option 3 option2
+  - Option 3 option3
+  - Option 3 option4
 --- !u!4 &218585251
 Transform:
   m_ObjectHideFlags: 0
@@ -772,6 +777,7 @@ MonoBehaviour:
   - Option 3 is running
   - Option 3 is finishing
   next: []
+  options: []
 --- !u!114 &731071062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1037,6 +1043,7 @@ MonoBehaviour:
   - Option 2 is running
   - Option 2 is finishing
   next: []
+  options: []
 --- !u!114 &896952581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1463,6 +1470,11 @@ MonoBehaviour:
   - {fileID: 1188585439}
   - {fileID: 218585250}
   - {fileID: 1283235741}
+  options:
+  - Option 1 option1
+  - Option 1 option2
+  - Option 1 option3
+  - Option 1 option3
 --- !u!4 &1151274403
 Transform:
   m_ObjectHideFlags: 0
@@ -1550,6 +1562,11 @@ MonoBehaviour:
   - {fileID: 1188585439}
   - {fileID: 218585250}
   - {fileID: 1283235741}
+  options:
+  - Option 2 option1
+  - Option 2 option2
+  - Option 2 option3
+  - Option 2 option4
 --- !u!4 &1188585440
 Transform:
   m_ObjectHideFlags: 0
@@ -1659,6 +1676,11 @@ MonoBehaviour:
   - {fileID: 1188585439}
   - {fileID: 218585250}
   - {fileID: 1283235741}
+  options:
+  - Option 4 option1
+  - Option 4 option2
+  - Option 4 option3
+  - Option 4 option4
 --- !u!4 &1283235742
 Transform:
   m_ObjectHideFlags: 0
@@ -1735,6 +1757,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  options: []
 --- !u!114 &1330924700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1897,6 +1920,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  options: []
 --- !u!4 &1427474266
 Transform:
   m_ObjectHideFlags: 0
@@ -2344,6 +2368,11 @@ MonoBehaviour:
   - {fileID: 1188585439}
   - {fileID: 218585250}
   - {fileID: 1283235741}
+  options:
+  - Option 1
+  - Numero 2
+  - Option 3
+  - Numero 4
 --- !u!114 &1743615525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2654,6 +2683,7 @@ MonoBehaviour:
   - Option 4 is running
   - Option 4 is finishing
   next: []
+  options: []
 --- !u!114 &1959424911
 MonoBehaviour:
   m_ObjectHideFlags: 0
