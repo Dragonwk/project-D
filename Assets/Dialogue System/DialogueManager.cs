@@ -8,6 +8,8 @@ public class DialogueManager : MonoBehaviour
     public Text nameText;
     public Text DialogueText;
     private Queue<string> sentences;
+    public DialogueTrigger[] options;
+    public Text[] optionNames;
 
     // Start is called before the first frame update
     void Start()
@@ -49,4 +51,13 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conversation.");
     }
     
+    public void OptionDialogue(Dialogue[] option)
+    {
+        int i = 0;
+        foreach(DialogueTrigger d in options)
+        {
+            d.setDialogue(option[i]);
+            i++;
+        }
+    }
 }
