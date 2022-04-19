@@ -468,7 +468,10 @@ MonoBehaviour:
   - Option 3 option2
   - Option 3 option3
   - Option 3 option4
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!4 &218585251
 Transform:
   m_ObjectHideFlags: 0
@@ -1172,7 +1175,10 @@ MonoBehaviour:
   - Option 3 is finishing
   next: []
   options: []
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!114 &731071062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1439,7 +1445,10 @@ MonoBehaviour:
   - Option 2 is finishing
   next: []
   options: []
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!114 &896952581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1871,7 +1880,10 @@ MonoBehaviour:
   - Option 1 option2
   - Option 1 option3
   - Option 1 option3
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 1
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!4 &1151274403
 Transform:
   m_ObjectHideFlags: 0
@@ -1964,7 +1976,10 @@ MonoBehaviour:
   - Option 2 option2
   - Option 2 option3
   - Option 2 option4
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!4 &1188585440
 Transform:
   m_ObjectHideFlags: 0
@@ -2055,7 +2070,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
 --- !u!4 &1243075726
+=======
+--- !u!114 &1283235741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1283235740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Option 1 GO
+  sentences:
+  - This is option 4 from sperate object
+  - Option 4 is starting
+  - Option 4  is running
+  - Option 4 is finishing
+  next:
+  - {fileID: 1151274402}
+  - {fileID: 1188585439}
+  - {fileID: 218585250}
+  - {fileID: 1283235741}
+  options:
+  - Option 4 option1
+  - Option 4 option2
+  - Option 4 option3
+  - Option 4 option4
+--- !u!4 &1283235742
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2568,7 +2615,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   options: []
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!114 &1330924700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2732,7 +2782,10 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   options: []
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!4 &1427474266
 Transform:
   m_ObjectHideFlags: 0
@@ -3681,7 +3734,10 @@ MonoBehaviour:
   - Numero 2
   - Option 3
   - Numero 4
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!114 &1743615525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3993,7 +4049,10 @@ MonoBehaviour:
   - Option 4 is finishing
   next: []
   options: []
+<<<<<<< HEAD:Assets/Dialogue System/Main.unity
   stay: 0
+=======
+>>>>>>> 868b76f0f2bb3532dcc9b90e0f8a5b7676ec95c3:Assets/Main.unity
 --- !u!114 &1959424911
 MonoBehaviour:
   m_ObjectHideFlags: 0
