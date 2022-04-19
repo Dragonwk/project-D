@@ -9,9 +9,15 @@ public class Dialogue : MonoBehaviour
     [TextArea(3,10)]
     public string[] sentences;
     public Dialogue[] next;
-    
+    public string[] options;
+    public bool stay;
+
     public Dialogue[] getNext()
     {
         return this.next;
+    }
+    public string[] getOptions()
+    {
+        return this.options;
     }
 }
