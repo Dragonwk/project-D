@@ -51,12 +51,13 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conversation.");
     }
     
-    public void OptionDialogue(Dialogue[] option)
+    public void OptionDialogue(Dialogue[] next, string[] option)
     {
         int i = 0;
         foreach(DialogueTrigger d in options)
         {
-            d.setDialogue(option[i]);
+            d.setDialogue(next[i]);
+            optionNames[i].text = option[i];
             i++;
         }
     }
