@@ -10,7 +10,10 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     public DialogueTrigger[] options;
     public Text[] optionNames;
+<<<<<<< HEAD
     public DialogueTrigger start;
+=======
+>>>>>>> parent of 868b76f (Add files via upload)
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +55,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conversation.");
     }
     
+<<<<<<< HEAD
     public void OptionDialogue(Dialogue[] next, string[] option , Dialogue di)
     {
         if (di.stay == true)
@@ -74,4 +78,15 @@ public class DialogueManager : MonoBehaviour
             start = stay;
         }
     }*/
+=======
+    public void OptionDialogue(Dialogue[] option)
+    {
+        int i = 0;
+        foreach(DialogueTrigger d in options)
+        {
+            d.setDialogue(option[i]);
+            i++;
+        }
+    }
+>>>>>>> parent of 868b76f (Add files via upload)
 }
