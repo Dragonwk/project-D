@@ -66,20 +66,4 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    /*public void setStart(Dialogue stay)
-    {
-        if (stay.stay == true) 
-        { 
-            start = stay;
-        }
-    }*/
-    public void OptionDialogue(Dialogue[] option)
-    {
-        int i = 0;
-        foreach(DialogueTrigger d in options)
-        {
-            d.setDialogue(option[i]);
-            i++;
-        }
-    }
 }
