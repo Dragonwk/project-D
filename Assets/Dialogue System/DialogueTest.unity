@@ -196,11 +196,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - " Blockchain improves healthcare by making it far more difficult for attackers
+    to steal patient information. \n"
+  - 'The computational power needed to hack a blockchain prevents most attacks from
+    starting in the first place. '
+  - "In addition, digital record keeping using blockchain is far more convenient
+    and safe than traditional paper record keeping.\r"
+  next:
+  - {fileID: 859494040}
+  - {fileID: 71220911}
+  - {fileID: 794732423}
+  - {fileID: 204873023}
+  options:
+  - How is blockchain implemented in healthcare?
+  - How does blockchain improve healthcare?
+  - 'I want to look at the model '
+  - I want to learn about something else
+  stay: 1
 --- !u!1 &101925452
 GameObject:
   m_ObjectHideFlags: 0
@@ -234,54 +248,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &165250698
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 165250699}
-  - component: {fileID: 165250700}
-  m_Layer: 0
-  m_Name: C_Health_Care_2_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &165250699
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165250698}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 727644900}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &165250700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 165250698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
 --- !u!1 &182459890
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,11 +293,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - Here's the supply chain example
+  next:
+  - {fileID: 1794997838}
+  - {fileID: 1722111396}
+  - {fileID: 204873023}
+  - {fileID: 1903326602}
+  options:
+  - I would like to examine the example
+  - Can you explain something to me?
+  - Can I look at another example?
+  - 
+  stay: 1
 --- !u!1 &194053685
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,11 +609,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - Here's the health care example
+  next:
+  - {fileID: 794732423}
+  - {fileID: 727644901}
+  - {fileID: 204873023}
+  - {fileID: 1903326602}
+  options:
+  - I would like to examine the example
+  - Can you explain something to me?
+  - Can I look at another example?
+  - 
+  stay: 1
 --- !u!1 &282386880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,11 +1297,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - Here's the mining example
+  next:
+  - {fileID: 1869818634}
+  - {fileID: 1953078025}
+  - {fileID: 1429946516}
+  - {fileID: 1903326602}
+  options:
+  - I would like to examine the example
+  - Can you explain something to me?
+  - Can I look at another example?
+  - 
+  stay: 1
 --- !u!1 &633007327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,15 +1471,15 @@ MonoBehaviour:
   sentences:
   - Okay.
   next:
-  - {fileID: 716477385}
-  - {fileID: 1180336640}
-  - {fileID: 1429946516}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
   - {fileID: 1903326602}
   options:
-  - Nevermind.
-  - What is the purpose of Blockchain?
-  - I would like to explore real world implementations.
-  - Empty.
+  - 
+  - 
+  - 
+  - 
   stay: 0
 --- !u!1 &727644899
 GameObject:
@@ -1518,8 +1511,6 @@ Transform:
   m_Children:
   - {fileID: 859494039}
   - {fileID: 71220910}
-  - {fileID: 165250699}
-  - {fileID: 1915328631}
   m_Father: {fileID: 242486564}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1535,11 +1526,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - 'What would you like to know about the health care example?
+
+'
+  next:
+  - {fileID: 859494040}
+  - {fileID: 71220911}
+  - {fileID: 794732423}
+  - {fileID: 204873023}
+  options:
+  - How is blockchain implemented in healthcare?
+  - How does blockchain improve healthcare?
+  - 'I want to look at the model '
+  - I want to learn about something else
+  stay: 1
 --- !u!1 &730764824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,10 +2028,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - Be careful with that!
+  next:
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  options:
+  - 
+  - 
+  - 
+  - 
   stay: 0
 --- !u!1 &859494038
 GameObject:
@@ -2074,59 +2085,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
---- !u!1 &883435096
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883435097}
-  - component: {fileID: 883435098}
-  m_Layer: 0
-  m_Name: C_Supply_Chain_2_4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &883435097
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883435096}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1722111395}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &883435098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883435096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - 'Record keeping is an essential part of healthcare, as is patient privacy. '
+  - Blockchain enables safe record keeping, and is used in healthcare to share records
+    without violating patient privacy.
+  next:
+  - {fileID: 859494040}
+  - {fileID: 71220911}
+  - {fileID: 794732423}
+  - {fileID: 204873023}
+  options:
+  - How is blockchain implemented in healthcare?
+  - How does blockchain improve healthcare?
+  - 'I want to look at the model '
+  - I want to learn about something else
+  stay: 1
 --- !u!1 &896952578
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,54 +2447,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020339150}
   m_CullTransparentMesh: 1
---- !u!1 &1124121575
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1124121576}
-  - component: {fileID: 1124121577}
-  m_Layer: 0
-  m_Name: C_Supply_Chain_2_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1124121576
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124121575}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1722111395}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1124121577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1124121575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
 --- !u!1 &1145596566
 GameObject:
   m_ObjectHideFlags: 0
@@ -2885,10 +2811,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - 'Blockchain works by recording transactions into daisy chained blocks, but the
+    transactions need to be validated first. '
+  - 'Without the validation, there is no garuntee that a transaction actually took
+    place or that the bitcoins that were traded are actually real. '
+  - "Without mining, blockchain doesn\u2019t work well."
+  next:
+  - {fileID: 1975767227}
+  - {fileID: 1222802814}
+  - {fileID: 1869818634}
+  - {fileID: 1429946516}
+  options:
+  - How is blockchain implemented in mining?
+  - Why is mining important to blockchain?
+  - 'I want to look at the model '
+  - I want to learn about something else
   stay: 0
 --- !u!1 &1228552697
 GameObject:
@@ -3370,7 +3309,7 @@ MonoBehaviour:
   - Can you explain something to me?
   - Can I look at another example?
   - 
-  stay: 0
+  stay: 1
 --- !u!1 &1363385367
 GameObject:
   m_ObjectHideFlags: 0
@@ -3866,10 +3805,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - ' A supply chain starts from raw material, and then travels its way through manufactures,
+    distributors, warehouses, retailers, and finally makes its way to the customer.'
+  - " Being able to keep track of material from start to finish isn\u2019t easy,
+    but it\u2019s necessary in today\u2019s world. \n"
+  - 'Problems with manufacturing, refining materials, etc. need to be tracked down
+    in case problems occur with a product. '
+  - "Many technologies rely on extremely tight tolerances, and blockchain helps make
+    sure the right materials get to the right location.\r"
+  next:
+  - {fileID: 1587787928}
+  - {fileID: 1587787928}
+  - {fileID: 1794997838}
+  - {fileID: 204873023}
+  options:
+  - How is blockchain implemented in supply chains?
+  - 'How does blockchain improve supply chains? '
+  - 'I want to look at the model '
+  - I want to learn about something else
   stay: 0
 --- !u!1 &1651149868
 GameObject:
@@ -4118,8 +4073,6 @@ Transform:
   m_Children:
   - {fileID: 1745501318}
   - {fileID: 1587787927}
-  - {fileID: 1124121576}
-  - {fileID: 883435097}
   m_Father: {fileID: 182459891}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4135,11 +4088,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - 'What would you like to know about the supply chain example?
+
+'
+  next:
+  - {fileID: 1745501319}
+  - {fileID: 1587787928}
+  - {fileID: 1794997838}
+  - {fileID: 204873023}
+  options:
+  - How is blockchain implemented in mining?
+  - Why is mining important to blockchain?
+  - 'I want to look at the model '
+  - I want to learn about something else
+  stay: 1
 --- !u!1 &1727627737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,10 +4147,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - This piece is priceless, be careful!
+  next:
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  options:
+  - 
+  - 
+  - 
+  - 
   stay: 0
 --- !u!1 &1741239109
 GameObject:
@@ -4521,10 +4494,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - 'Blockchain technology is used to track shipments inside supply chains. '
+  - Each time a shipment is handed off to another supplier or distributor, a transaction
+    is recorded.
+  - ' This enables supplies to be tracked from location to location; other info such
+    as size and weight can be added to the tracking info.
+
+'
+  next:
+  - {fileID: 1745501319}
+  - {fileID: 1587787928}
+  - {fileID: 1794997838}
+  - {fileID: 204873023}
+  options:
+  - How is blockchain implemented in supply chains?
+  - 'How does blockchain improve supply chains? '
+  - 'I want to look at the model '
+  - I want to learn about something else
   stay: 0
 --- !u!1 &1783609675
 GameObject:
@@ -4633,10 +4621,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - Be careful with that!
+  next:
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  options:
+  - 
+  - 
+  - 
+  - 
   stay: 0
 --- !u!1 &1797361032
 GameObject:
@@ -4935,10 +4932,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - Be careful with that!
+  next:
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  - {fileID: 1903326602}
+  options:
+  - 
+  - 
+  - 
+  - 
   stay: 0
 --- !u!1 &1903326599
 GameObject:
@@ -4996,54 +5002,6 @@ MonoBehaviour:
   - 
   - 
   - 
-  stay: 0
---- !u!1 &1915328630
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1915328631}
-  - component: {fileID: 1915328632}
-  m_Layer: 0
-  m_Name: C_Health_Care_2_4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1915328631
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915328630}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 727644900}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1915328632
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915328630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
   stay: 0
 --- !u!1 &1927849644
 GameObject:
@@ -5204,11 +5162,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
-  stay: 0
+  name: NPC
+  sentences:
+  - What would you like to know about the mining example?
+  next:
+  - {fileID: 1975767227}
+  - {fileID: 1222802814}
+  - {fileID: 1869818634}
+  - {fileID: 1429946516}
+  options:
+  - How is blockchain implemented in mining?
+  - Why is mining important to blockchain?
+  - 'I want to look at the model '
+  - I want to learn about something else
+  stay: 1
 --- !u!1 &1959424908
 GameObject:
   m_ObjectHideFlags: 0
@@ -5572,10 +5539,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3053b924a736387498d098ffbcb1c8b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
-  sentences: []
-  next: []
-  options: []
+  name: NPC
+  sentences:
+  - "Mining is an important process in blockchain enabled cryptocurrencies. \n"
+  - 'Validation of Bitcoin transactions are done computationally by miners looking
+    to get more Bitcoins. '
+  - "The miners are essentially solving complex math problems that prove legitimacy
+    of transactions.\r"
+  next:
+  - {fileID: 1975767227}
+  - {fileID: 1222802814}
+  - {fileID: 1869818634}
+  - {fileID: 1429946516}
+  options:
+  - How is blockchain implemented in mining?
+  - Why is mining important to blockchain?
+  - 'I want to look at the model '
+  - I want to learn about something else
   stay: 0
 --- !u!1 &1999299840
 GameObject:
