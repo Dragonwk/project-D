@@ -215,6 +215,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &101925452
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +308,7 @@ MonoBehaviour:
   - Can I look at another example?
   - 
   stay: 1
+  close: 0
 --- !u!1 &194053685
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,6 +506,7 @@ MonoBehaviour:
   - Previous Examples
   - Return to Start
   stay: 1
+  close: 0
 --- !u!1 &218585249
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +553,7 @@ MonoBehaviour:
   - Option 3 option3
   - Option 3 option4
   stay: 0
+  close: 0
 --- !u!4 &218585251
 Transform:
   m_ObjectHideFlags: 0
@@ -623,6 +627,7 @@ MonoBehaviour:
   - Can I look at another example?
   - 
   stay: 1
+  close: 0
 --- !u!1 &282386880
 GameObject:
   m_ObjectHideFlags: 0
@@ -786,8 +791,9 @@ MonoBehaviour:
   - Nevermind.
   - What is the purpose of Blockchain?
   - I would like to explore real world implementations.
-  - Empty.
+  - 
   stay: 1
+  close: 0
 --- !u!1 &358417168
 GameObject:
   m_ObjectHideFlags: 0
@@ -983,6 +989,7 @@ MonoBehaviour:
   - I want to look at the model
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &398791506
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1051,7 @@ MonoBehaviour:
   - ' I want to learn about something else '
   - 
   stay: 0
+  close: 0
 --- !u!1 &411723716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1260,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &551997132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1311,6 +1320,7 @@ MonoBehaviour:
   - Can I look at another example?
   - 
   stay: 1
+  close: 0
 --- !u!1 &633007327
 GameObject:
   m_ObjectHideFlags: 0
@@ -1481,6 +1491,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &727644899
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1553,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &730764824
 GameObject:
   m_ObjectHideFlags: 0
@@ -1780,6 +1792,7 @@ MonoBehaviour:
   next: []
   options: []
   stay: 0
+  close: 0
 --- !u!114 &731071062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2042,6 +2055,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &859494038
 GameObject:
   m_ObjectHideFlags: 0
@@ -2101,6 +2115,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &896952578
 GameObject:
   m_ObjectHideFlags: 0
@@ -2163,6 +2178,7 @@ MonoBehaviour:
   next: []
   options: []
   stay: 0
+  close: 0
 --- !u!114 &896952581
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2595,6 +2611,7 @@ MonoBehaviour:
   - Option 1 option3
   - Option 1 option3
   stay: 0
+  close: 0
 --- !u!4 &1151274403
 Transform:
   m_ObjectHideFlags: 0
@@ -2708,6 +2725,7 @@ MonoBehaviour:
   - ' I want to learn about something else '
   - 
   stay: 0
+  close: 0
 --- !u!1 &1188585438
 GameObject:
   m_ObjectHideFlags: 0
@@ -2754,6 +2772,7 @@ MonoBehaviour:
   - Option 2 option3
   - Option 2 option4
   stay: 0
+  close: 0
 --- !u!4 &1188585440
 Transform:
   m_ObjectHideFlags: 0
@@ -2829,6 +2848,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1228552697
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,6 +2891,8 @@ MonoBehaviour:
   - {fileID: 1704287585}
   - {fileID: 1797361034}
   start: {fileID: 1743615525}
+  animator: {fileID: 1741239113}
+  Close: 0
 --- !u!4 &1228552699
 Transform:
   m_ObjectHideFlags: 0
@@ -2931,6 +2953,7 @@ MonoBehaviour:
   - Option 4 option3
   - Option 4 option4
   stay: 0
+  close: 0
 --- !u!4 &1283235742
 Transform:
   m_ObjectHideFlags: 0
@@ -3004,6 +3027,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1308641609
 GameObject:
   m_ObjectHideFlags: 0
@@ -3065,6 +3089,7 @@ MonoBehaviour:
   - ' I want to learn about something else '
   - 
   stay: 0
+  close: 0
 --- !u!1 &1330924697
 GameObject:
   m_ObjectHideFlags: 0
@@ -3129,6 +3154,7 @@ MonoBehaviour:
   - {fileID: 0}
   options: []
   stay: 0
+  close: 0
 --- !u!114 &1330924700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3310,6 +3336,7 @@ MonoBehaviour:
   - Can I look at another example?
   - 
   stay: 1
+  close: 0
 --- !u!1 &1363385367
 GameObject:
   m_ObjectHideFlags: 0
@@ -3370,6 +3397,7 @@ MonoBehaviour:
   - I want to look at the model
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1427474264
 GameObject:
   m_ObjectHideFlags: 0
@@ -3416,6 +3444,7 @@ MonoBehaviour:
   - Option3
   - Option4
   stay: 0
+  close: 0
 --- !u!4 &1427474266
 Transform:
   m_ObjectHideFlags: 0
@@ -3497,6 +3526,7 @@ MonoBehaviour:
   - Mining
   - More Examples
   stay: 1
+  close: 0
 --- !u!1 &1471900858
 GameObject:
   m_ObjectHideFlags: 0
@@ -3730,6 +3760,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &1564849280
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,6 +3857,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1651149868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3885,6 +3917,7 @@ MonoBehaviour:
   - Can I look at another example?
   - 
   stay: 1
+  close: 0
 --- !u!1 &1693065539
 GameObject:
   m_ObjectHideFlags: 0
@@ -4104,6 +4137,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &1727627737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4161,6 +4195,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &1741239109
 GameObject:
   m_ObjectHideFlags: 0
@@ -4250,7 +4285,7 @@ Animator:
   m_GameObject: {fileID: 1741239109}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b371c01b6c4bfca42ac6976686c3c4d1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0dc20ba912e695c45804a4f1f16121de, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4438,6 +4473,7 @@ MonoBehaviour:
   - Option 3
   - Numero 4
   stay: 0
+  close: 0
 --- !u!114 &1743615525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4514,6 +4550,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1783609675
 GameObject:
   m_ObjectHideFlags: 0
@@ -4578,6 +4615,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1794997836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4635,6 +4673,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &1797361032
 GameObject:
   m_ObjectHideFlags: 0
@@ -4946,6 +4985,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &1903326599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5003,6 +5043,7 @@ MonoBehaviour:
   - 
   - 
   stay: 0
+  close: 1
 --- !u!1 &1927849644
 GameObject:
   m_ObjectHideFlags: 0
@@ -5176,6 +5217,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 1
+  close: 0
 --- !u!1 &1959424908
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,6 +5280,7 @@ MonoBehaviour:
   next: []
   options: []
   stay: 0
+  close: 0
 --- !u!114 &1959424911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5557,6 +5600,7 @@ MonoBehaviour:
   - 'I want to look at the model '
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &1999299840
 GameObject:
   m_ObjectHideFlags: 0
@@ -5620,6 +5664,7 @@ MonoBehaviour:
   - I want to look at the model
   - I want to learn about something else
   stay: 0
+  close: 0
 --- !u!1 &2089808247
 GameObject:
   m_ObjectHideFlags: 0

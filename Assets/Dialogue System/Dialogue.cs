@@ -11,8 +11,8 @@ public class Dialogue : MonoBehaviour
     public Dialogue[] next;
     public string[] options;
     public bool stay;
-
-    
+    public bool close;
+    public bool item;
 
     public Dialogue[] getNext()
     {

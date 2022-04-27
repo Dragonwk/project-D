@@ -12,17 +12,22 @@ public class DialogueManager : MonoBehaviour
     public Text[] optionNames;
     public DialogueTrigger start;
 
+    public Animator animator;
+    public bool Close;
+
     void Start()
     {
         sentences = new Queue<string>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue,bool close)
     {
         Debug.Log("Starting conversation with " + dialogue.name);
-        Debug.Log(nameText.text);
+        //Debug.Log(nameText.text);
+        Close = close;
+        animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
-        Debug.Log(dialogue.sentences);
+        //Debug.Log(dialogue.sentences);
         sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
@@ -42,12 +47,28 @@ public class DialogueManager : MonoBehaviour
         }
         string sentence = sentences.Dequeue();
         Debug.Log(sentence);
-        DialogueText.text = sentence;
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(sentence));
 
+    }
+
+    IEnumerator TypeSentence(string str)
+    {
+        DialogueText.text = "";
+        foreach(char letter in str.ToCharArray())
+        {
+            DialogueText.text += letter;
+            yield return null;
+        }
     }
 
     void EndDialogue()
     {
+        if (Close == true)
+        {
+            animator.SetBool("IsOpen", false);
+        }
+        //animator.SetBool("IsOpen", false);
         Debug.Log("End of conversation.");
     }
     
