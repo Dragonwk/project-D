@@ -1,5 +1,4 @@
 Library\Bee\artifacts\movedfrom\Unity.InputSystem.ref.dll_18243739575776960641.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.PlasticSCM.Editor.ref.dll_2700729535869450326.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Rider.Editor.ref.dll_11193012430168537007.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.Subsystem.Registration.ref.dll_8030987906518691830.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.TextMeshPro.Editor.ref.dll_1557689244747631494.movedfrom
@@ -14,6 +13,8 @@ Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Flow.ref.dll_2192924542065
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.State.Editor.ref.dll_16156761413022531439.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualScripting.State.ref.dll_15643080368937755746.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.VisualStudio.Editor.ref.dll_4221946230532187309.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.XR.CoreUtils.Editor.ref.dll_12392785343845564277.movedfrom
+Library\Bee\artifacts\movedfrom\Unity.XR.CoreUtils.ref.dll_4369252919683013628.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.XR.Interaction.Toolkit.Editor.ref.dll_1427953638926000405.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.XR.Interaction.Toolkit.ref.dll_10864465789054459996.movedfrom
 Library\Bee\artifacts\movedfrom\Unity.XR.Management.Editor.ref.dll_8910596525326941778.movedfrom
@@ -103,4 +104,3 @@ Library\Bee\artifacts\movedfrom\UnityEngine.VirtualTexturingModule.dll_136601066
 Library\Bee\artifacts\movedfrom\UnityEngine.VRModule.dll_12772885203704455104.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.WindModule.dll_3419194492641429724.movedfrom
 Library\Bee\artifacts\movedfrom\UnityEngine.XRModule.dll_16429459575425461534.movedfrom
-Library\Bee\artifacts\movedfrom\Unity.VisualScripting.Antlr3.Runtime.dll_3033697044345966559.movedfrom

@@ -10,6 +10,8 @@ XRControllerRecordingEditor
 XRRigEditor
 PackageManagerEditorHelper
 Utilities
+InputHelpers
+
 Sysroot
 UnityEditor
 LinuxStandalone
