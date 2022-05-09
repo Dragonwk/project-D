@@ -12,7 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Text[] optionNames;
     public DialogueTrigger start;
 
-    public Animator animator;
+    //public Animator animator;
     public bool Close;
 
     void Start()
@@ -25,7 +25,7 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Starting conversation with " + dialogue.name);
         //Debug.Log(nameText.text);
         Close = close;
-        animator.SetBool("IsOpen", true);
+       // animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         //Debug.Log(dialogue.sentences);
         sentences.Clear();
@@ -66,7 +66,9 @@ public class DialogueManager : MonoBehaviour
     {
         if (Close == true)
         {
-            animator.SetBool("IsOpen", false);
+            //animator.SetBool("IsOpen", false);
+            start.dialogue.spawner.NewSpawnRequest();
+            FindObjectOfType<Canvas>().enabled = false;
         }
         //animator.SetBool("IsOpen", false);
         Debug.Log("End of conversation.");

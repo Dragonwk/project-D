@@ -8,6 +8,8 @@ public class DialogueTrigger : MonoBehaviour
 
     public void TriggerDialogue()
     {
+        FindObjectOfType<Canvas>().enabled = true;
+
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue,dialogue.close);
         FindObjectOfType<DialogueManager>().OptionDialogue(dialogue.next,dialogue.options, dialogue);
 

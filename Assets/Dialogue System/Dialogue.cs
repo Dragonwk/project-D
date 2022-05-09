@@ -13,6 +13,7 @@ public class Dialogue : MonoBehaviour
     public bool stay;
     public bool close;
     public bool item;
+    public spawn spawner;
 
     public Dialogue[] getNext()
     {
