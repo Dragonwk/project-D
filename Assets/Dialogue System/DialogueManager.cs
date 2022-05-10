@@ -26,6 +26,8 @@ public class DialogueManager : MonoBehaviour
         //Debug.Log(nameText.text);
         Close = close;
        // animator.SetBool("IsOpen", true);
+		if(start.dialogue.spawner!=null)
+			start.dialogue.spawner.NewSpawnRequest();
         nameText.text = dialogue.name;
         //Debug.Log(dialogue.sentences);
         sentences.Clear();
@@ -67,7 +69,7 @@ public class DialogueManager : MonoBehaviour
         if (Close == true)
         {
             //animator.SetBool("IsOpen", false);
-            start.dialogue.spawner.NewSpawnRequest();
+            
             FindObjectOfType<Canvas>().enabled = false;
         }
         //animator.SetBool("IsOpen", false);
