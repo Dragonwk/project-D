@@ -8,8 +8,6 @@ public class i_block2 : MonoBehaviour
 {
 
     public GameObject block1;
-    public GameObject ledgers;
-
 
     private void Start()
     {
@@ -22,12 +20,8 @@ public class i_block2 : MonoBehaviour
         // Load - Ledger stage 3
         if (block1.transform.hasChanged == true)
         {
-            //SceneManager.LoadScene("Ledger_stage3.1");
-            //SceneManager.UnloadScene("Art_stage2");
-            bool isActive = block1.activeSelf;
-
-            block1.SetActive(!isActive);
-            ledgers.SetActive(isActive);
+            SceneManager.LoadScene("Ledger_stage3.1");
+            SceneManager.UnloadScene("Art_stage2");
 
             block1.transform.hasChanged = false;
 

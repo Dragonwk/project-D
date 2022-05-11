@@ -46,7 +46,6 @@
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\PlayerLook_Mouse.cs" />
      <Compile Include="Assets\Dialogue System\DialogueTrigger.cs" />
-     <Compile Include="Assets\HMDInfoManager.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\StretcherOpenClose.cs" />
      <Compile Include="Assets\Scripts\LedgerPractice.cs" />
      <Compile Include="Assets\Dialogue System\Dialogue.cs" />
@@ -57,13 +56,11 @@
      <Compile Include="Assets\Scripts\fileText.cs" />
      <Compile Include="Assets\Scripts\Transactions\transactionsGeneral.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\openclosedouble.cs" />
-     <Compile Include="Assets\Spawner\spawn.cs" />
      <Compile Include="Assets\PanelOpener.cs" />
      <Compile Include="Assets\Scripts\Scene Transitions\i_supplyChain.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scenes\SceneSwitch.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\FanRotation.cs" />
      <Compile Include="Assets\Scripts\Scene Transitions\i_voting.cs" />
-     <Compile Include="Assets\Scripts\Camera_Follow.cs" />
      <Compile Include="Assets\Scripts\Panel.cs" />
      <Compile Include="Assets\Prefabs\Low Poly Fruits\resources\fruits_tester.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
@@ -722,26 +719,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.MockHMD.Editor">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.MockHMD.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.MockHMD">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.MockHMD.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.TestHelpers">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.TestHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -758,26 +743,17 @@
     <Reference Include="Unity.XR.Oculus.Editor">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenXR">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.Oculus">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
