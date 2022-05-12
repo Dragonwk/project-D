@@ -988,7 +988,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &87672770 stripped
 Transform:
@@ -1118,7 +1118,7 @@ Transform:
   m_Children:
   - {fileID: 1957896325}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &123453529
 PrefabInstance:
@@ -1439,7 +1439,7 @@ Transform:
   - {fileID: 1126314303}
   - {fileID: 101458523}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &156457943
 GameObject:
@@ -1735,7 +1735,7 @@ Transform:
   m_LocalScale: {x: 13.104904, y: 4.5194, z: 14.321926}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &192844384
 PrefabInstance:
@@ -2724,6 +2724,9 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -2761,6 +2764,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
@@ -2979,7 +2988,7 @@ Transform:
   - {fileID: 1072470241}
   - {fileID: 1199610021}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &415984010
 GameObject:
@@ -3111,7 +3120,7 @@ RectTransform:
   - {fileID: 980523823}
   - {fileID: 259193272}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: -26.099, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3497,6 +3506,9 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -3534,6 +3546,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
@@ -4030,7 +4048,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &677072371
 GameObject:
@@ -4066,7 +4084,7 @@ Transform:
   m_Children:
   - {fileID: 1238196468}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &677072373
 MonoBehaviour:
@@ -4080,12 +4098,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7448815bd5148434682b3d931066cd10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RigBaseGameObject: {fileID: 677072371}
+  m_Camera: {fileID: 0}
+  m_OriginBaseGameObject: {fileID: 677072371}
   m_CameraFloorOffsetObject: {fileID: 1238196467}
-  m_CameraGameObject: {fileID: 2049520694}
-  m_TrackingOriginMode: 2
-  m_TrackingSpace: 3
+  m_RequestedTrackingOriginMode: 0
   m_CameraYOffset: 1.36144
+  m_CameraGameObject: {fileID: 2049520694}
 --- !u!114 &677072374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4438,6 +4456,12 @@ MonoBehaviour:
   m_EnableXRInput: 1
   m_EnableMouseInput: 1
   m_EnableTouchInput: 1
+  m_EnableGamepadInput: 1
+  m_EnableJoystickInput: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
 --- !u!114 &778916284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4465,7 +4489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &859756920
 GameObject:
@@ -4887,7 +4911,10 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -4915,6 +4942,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 1
+  m_AllowHoveredActivate: 0
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -4948,6 +4976,7 @@ MonoBehaviour:
   m_LineType: 0
   m_BlendVisualLinePoints: 1
   m_MaxRaycastDistance: 30
+  m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
   m_Acceleration: 9.8
@@ -4965,7 +4994,6 @@ MonoBehaviour:
     m_Bits: 33
   m_RaycastTriggerInteraction: 1
   m_HitClosestOnly: 0
-  m_KeepSelectedTargetValid: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
@@ -4990,7 +5018,8 @@ MonoBehaviour:
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
   m_ModelPrefab: {fileID: 0}
-  m_ModelTransform: {fileID: 0}
+  m_ModelParent: {fileID: 0}
+  m_Model: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -5974,7 +6003,8 @@ MonoBehaviour:
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
   m_ModelPrefab: {fileID: 7474813167165832830, guid: 5a55b74e1464f644e8ef451793eb6d97, type: 3}
-  m_ModelTransform: {fileID: 0}
+  m_ModelParent: {fileID: 0}
+  m_Model: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -6017,7 +6047,10 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -6045,6 +6078,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -6643,7 +6677,7 @@ Transform:
   m_LocalScale: {x: 0.053443603, y: 0.053443592, z: 0.002674485}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &1105349382
 PrefabInstance:
@@ -7389,6 +7423,9 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 2147483647
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -7426,6 +7463,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
@@ -7729,6 +7772,9 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -7766,6 +7812,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
@@ -8022,7 +8074,8 @@ MonoBehaviour:
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
   m_ModelPrefab: {fileID: 7474813167165832830, guid: 5a55b74e1464f644e8ef451793eb6d97, type: 3}
-  m_ModelTransform: {fileID: 0}
+  m_ModelParent: {fileID: 0}
+  m_Model: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -8065,7 +8118,10 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -8093,6 +8149,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
+  m_AllowHoveredActivate: 0
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -8869,7 +8926,7 @@ Transform:
   - {fileID: 2031119779}
   - {fileID: 1689862107}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1509977884
 PrefabInstance:
@@ -9162,7 +9219,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1558307940 stripped
 Transform:
@@ -10321,7 +10378,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1762501707
 GameObject:
@@ -10993,6 +11050,9 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 2147483647
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 0
   m_CustomReticle: {fileID: 0}
   m_FirstHoverEntered:
     m_PersistentCalls:
@@ -11030,6 +11090,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
   m_SelectEntered:
     m_PersistentCalls:
       m_Calls:
@@ -11564,7 +11630,7 @@ Transform:
   - {fileID: 1624482728}
   - {fileID: 416899956}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1954837694
 GameObject:
@@ -11814,7 +11880,7 @@ Transform:
   m_LocalScale: {x: 0.053443603, y: 0.053443592, z: 0.002674485}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: -42.494, z: 0}
 --- !u!1 &1990647419
 GameObject:
@@ -12140,7 +12206,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2049520694
 GameObject:
@@ -12366,6 +12432,135 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: ddc206c04d4aa4148a16ca8a394365eb, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecbad12a62c65b04983896acb72ec285, type: 3}
+--- !u!1001 &2103469239
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2181477763607259852, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2674.0007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763607259852, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763607259852, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.21029252
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763607259852, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2177
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763607259852, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2320
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1136.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1717.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -18.363121
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.97417444
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.225797
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.009675145
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -26.099
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542667, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763657542669, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_Name
+      value: Stage 1 Menus (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763868802421, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2674
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763868802421, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 2177
+      objectReference: {fileID: 0}
+    - target: {fileID: 2181477763868802421, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2320
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a5d7ed59eb4f9d746969b9ac3ab8a0a7, type: 3}
 --- !u!1001 &2104895359
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12786,7 +12981,10 @@ MonoBehaviour:
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
+  m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
   m_HoverEntered:
     m_PersistentCalls:
@@ -12814,6 +13012,7 @@ MonoBehaviour:
       m_Calls: []
   m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 1
+  m_AllowHoveredActivate: 0
   m_PlayAudioClipOnSelectEntered: 0
   m_AudioClipForOnSelectEntered: {fileID: 0}
   m_PlayAudioClipOnSelectExited: 0
@@ -12847,6 +13046,7 @@ MonoBehaviour:
   m_LineType: 0
   m_BlendVisualLinePoints: 1
   m_MaxRaycastDistance: 30
+  m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
   m_Acceleration: 9.8
@@ -12864,7 +13064,6 @@ MonoBehaviour:
     m_Bits: 33
   m_RaycastTriggerInteraction: 1
   m_HitClosestOnly: 0
-  m_KeepSelectedTargetValid: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
   m_EnableUIInteraction: 1
@@ -12889,7 +13088,8 @@ MonoBehaviour:
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
   m_ModelPrefab: {fileID: 0}
-  m_ModelTransform: {fileID: 0}
+  m_ModelParent: {fileID: 0}
+  m_Model: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 

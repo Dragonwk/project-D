@@ -176,7 +176,7 @@ MonoBehaviour:
   next: []
   options: []
   stay: 0
-  close: 1
+  close: 0
   item: 1
   spawner: {fileID: 155904071}
 --- !u!4 &155904073
