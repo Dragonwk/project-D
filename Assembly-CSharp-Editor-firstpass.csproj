@@ -276,14 +276,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="MiscUtil">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
+    </Reference>
     <Reference Include="YamlDotNet">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/YamlDotNet/YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="IonicZip">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/PackageCache/com.unity.visualscripting@1.5.2/Editor/VisualScripting.Core/Dependencies/DotNetZip/IonicZip.dll</HintPath>
-    </Reference>
-    <Reference Include="MiscUtil">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Core/Dependencies/MiscUtil/MiscUtil.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/PackageCache/com.unity.visualscripting@1.5.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Antlr3.Runtime.dll</HintPath>
@@ -696,14 +696,26 @@
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.MockHMD.Editor">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.MockHMD.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Core">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.XR.MockHMD">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.MockHMD.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.TestHelpers">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.TestHelpers.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Editor">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -720,17 +732,26 @@
     <Reference Include="Unity.XR.Oculus.Editor">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
+    <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
         <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+        <HintPath>C:/Users/Matthew Gentle/Desktop/Senior_Project/Branch-Integration/project-D/Library/ScriptAssemblies/Unity.XR.Oculus.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
