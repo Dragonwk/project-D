@@ -13,6 +13,8 @@ public class Dialogue : MonoBehaviour
     public bool stay;
     public bool close;
     public bool item;
+    public bool empty;
+    public GameObject model;
 
     public Dialogue[] getNext()
     {
