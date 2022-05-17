@@ -433,6 +433,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &31211768
 Transform:
   m_ObjectHideFlags: 0
@@ -506,6 +508,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &35820600
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,6 +595,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &44038488
 Transform:
   m_ObjectHideFlags: 0
@@ -1101,6 +1107,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &94647861
 Transform:
   m_ObjectHideFlags: 0
@@ -1560,6 +1568,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!114 &156940619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2415,6 +2425,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1001 &238803015
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3302,6 +3314,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &292321874 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8f46bd4a2b967c64ca8b6196b7cd5081, type: 3}
@@ -3629,6 +3643,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &325284453
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,7 +4199,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 364337949}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3159467b8f8fdde448cf872dbedec4b4, type: 3}
+  m_Script: {fileID: 11500000, guid: 57f9072a6039cea4397d4e8c886f185c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DBox: {fileID: 1489165267}
@@ -4236,7 +4252,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 364337951}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PanelOpener, Assembly-CSharp
         m_MethodName: OpenPanel
         m_Mode: 1
@@ -4409,6 +4425,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &369702065
 Transform:
   m_ObjectHideFlags: 0
@@ -4561,6 +4579,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &405520907
 Transform:
   m_ObjectHideFlags: 0
@@ -6620,6 +6640,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &622640995
 Transform:
   m_ObjectHideFlags: 0
@@ -7026,6 +7048,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &660540102
 Transform:
   m_ObjectHideFlags: 0
@@ -7643,6 +7667,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &701410466
 Transform:
   m_ObjectHideFlags: 0
@@ -8154,6 +8180,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &734679686
 GameObject:
   m_ObjectHideFlags: 0
@@ -8709,6 +8737,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &796623536
 Transform:
   m_ObjectHideFlags: 0
@@ -9977,6 +10007,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &888516651
 Transform:
   m_ObjectHideFlags: 0
@@ -10455,6 +10487,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &964688649
 Transform:
   m_ObjectHideFlags: 0
@@ -10774,6 +10808,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &976245374
 Transform:
   m_ObjectHideFlags: 0
@@ -11780,6 +11816,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &1110576446
 GameObject:
   m_ObjectHideFlags: 0
@@ -12557,6 +12595,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!114 &1168792608
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12844,6 +12884,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1181317658
 Transform:
   m_ObjectHideFlags: 0
@@ -12944,6 +12986,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &1197516066
 GameObject:
   m_ObjectHideFlags: 0
@@ -13000,14 +13044,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197516066}
-  m_LocalRotation: {x: -0, y: -0.69807774, z: -0, w: 0.716022}
-  m_LocalPosition: {x: 3.118, y: 1.313, z: -0.157}
+  m_LocalRotation: {x: -0, y: 0.71602, z: -0, w: 0.6980798}
+  m_LocalPosition: {x: -3.494, y: 1.464, z: 0.122}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2056458553}
   m_Father: {fileID: 0}
   m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: -88.546, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 91.454, z: 0}
 --- !u!1001 &1200646190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13696,6 +13740,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &1271557345
 GameObject:
   m_ObjectHideFlags: 0
@@ -13877,6 +13923,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1312681411
 Transform:
   m_ObjectHideFlags: 0
@@ -13994,6 +14042,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1326705725
 Transform:
   m_ObjectHideFlags: 0
@@ -14073,6 +14123,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1001 &1335002501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15498,6 +15550,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1465531013
 Transform:
   m_ObjectHideFlags: 0
@@ -15642,6 +15696,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &1489165267
 GameObject:
   m_ObjectHideFlags: 0
@@ -16035,6 +16091,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1550717572
 Transform:
   m_ObjectHideFlags: 0
@@ -16116,6 +16174,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!1 &1556492659
 GameObject:
   m_ObjectHideFlags: 0
@@ -16164,6 +16224,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1556492661
 Transform:
   m_ObjectHideFlags: 0
@@ -16549,6 +16611,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1566697186
 Transform:
   m_ObjectHideFlags: 0
@@ -16613,6 +16677,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1567332868
 Transform:
   m_ObjectHideFlags: 0
@@ -17228,6 +17294,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1663192320
 Transform:
   m_ObjectHideFlags: 0
@@ -18539,6 +18607,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1769554685
 Transform:
   m_ObjectHideFlags: 0
@@ -18619,6 +18689,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!114 &1771559099
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19076,6 +19148,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1817121917 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4184476378864080519, guid: 71f0daa801a51cf41b2b9246931b0329, type: 3}
@@ -19908,6 +19982,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!114 &1876204321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20646,6 +20722,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!114 &1913841633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21844,6 +21922,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &1973175891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8104787743601361581, guid: a58a0eb29bdf92f49ae93da6e923e4e5, type: 3}
@@ -22391,6 +22471,8 @@ MonoBehaviour:
   stay: 1
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &2057447072
 Transform:
   m_ObjectHideFlags: 0
@@ -22533,8 +22615,10 @@ MonoBehaviour:
   - {fileID: 855645086}
   - {fileID: 1237962698}
   start: {fileID: 1168792609}
-  animator: {fileID: 1489165269}
+  panel: {fileID: 0}
   Close: 0
+  modelActive: 0
+  model: {fileID: 0}
 --- !u!4 &2073815322
 Transform:
   m_ObjectHideFlags: 0
@@ -22654,6 +22738,8 @@ MonoBehaviour:
   stay: 0
   close: 0
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &2087830402
 Transform:
   m_ObjectHideFlags: 0
@@ -22718,6 +22804,8 @@ MonoBehaviour:
   stay: 0
   close: 1
   item: 0
+  empty: 0
+  model: {fileID: 0}
 --- !u!4 &2131811344
 Transform:
   m_ObjectHideFlags: 0
