@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Miner_stage4.unity
     guid: 91607ca4c0f2a1c48869cf67468f8ec4
+  - enabled: 1
+    path: Assets/Scenes/Demo_stage.unity
+    guid: 70e0ba2773994a04b889dd0a64110fc6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: dad9ab2a2860c4f4ba23ee6d2a31d91b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5697c75ecd68c064a8fcbe898189ccc5, type: 2}

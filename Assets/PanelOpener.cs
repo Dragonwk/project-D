@@ -10,6 +10,8 @@ public class PanelOpener : MonoBehaviour
     public GameObject O2;
     public GameObject O3;
     public GameObject O4;
+
+    public GameObject MM;
     // Start is called before the first frame update
     public void OpenPanel()
     {
@@ -23,6 +25,7 @@ public class PanelOpener : MonoBehaviour
             O3.SetActive(!isActive);
             O4.SetActive(!isActive);
             DBox.SetActive(!isActive);
+            MM.SetActive(!isActive);
         }
     }
 
@@ -52,6 +55,7 @@ public class PanelOpener : MonoBehaviour
             O4.SetActive(true);
             TButton.SetActive(true);
             DBox.SetActive(true);
+            MM.SetActive(true);
         }
     }
     public void CloseAll()
@@ -64,6 +68,7 @@ public class PanelOpener : MonoBehaviour
             O4.SetActive(false);
             TButton.SetActive(false);
             DBox.SetActive(false);
+            MM.SetActive(false);
         }
     }
 

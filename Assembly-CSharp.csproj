@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\Scene Transitions\i_block1.cs" />
      <Compile Include="Assets\Mute.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
+     <Compile Include="Assets\Scripts\i_mainmenu.cs" />
      <None Include="Assets\Prefabs\People  (Kevin Iglesias)\3DCharacterDummy\Readme.txt" />
      <None Include="Assets\Materials\newShader.shader" />
      <None Include="Assets\XML docs\doc.xml" />
