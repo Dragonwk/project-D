@@ -46,6 +46,7 @@
      <Compile Include="Assets\Scripts\Scene Transitions\i_healthcare.cs" />
      <Compile Include="Assets\Scripts\MenuManager.cs" />
      <Compile Include="Assets\PlayerLook_Mouse.cs" />
+     <Compile Include="Assets\Scripts\i_demo.cs" />
      <Compile Include="Assets\Dialogue System\DialogueTrigger.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\StretcherOpenClose.cs" />
      <Compile Include="Assets\Scripts\LedgerPractice.cs" />
@@ -58,7 +59,8 @@
      <Compile Include="Assets\Scripts\fileText.cs" />
      <Compile Include="Assets\Scripts\Transactions\transactionsGeneral.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\openclosedouble.cs" />
-     <Compile Include="Assets\PanelOpener.cs" />
+     <Compile Include="Assets\Spawner\spawn.cs" />
+     <Compile Include="Assets\DontDestroyAudio.cs" />
      <Compile Include="Assets\Scripts\Scene Transitions\i_supplyChain.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scenes\SceneSwitch.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\Hospital Medical Office Modular\Scripts &amp; Animations\FanRotation.cs" />
@@ -68,6 +70,7 @@
      <Compile Include="Assets\Prefabs\Low Poly Fruits\resources\fruits_tester.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\SE Basic Assets\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
      <Compile Include="Assets\Prefabs\Record_player\Scripts\RecordPlayer.cs" />
+     <Compile Include="Assets\PanelOpener.cs" />
      <Compile Include="Assets\Scripts\Scene Transitions\i_block2.cs" />
      <Compile Include="Assets\Dialogue System\DialogueManager.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor.cs" />
@@ -79,6 +82,7 @@
      <Compile Include="Assets\Scripts\Scene Transitions\i_back_toStage1.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\SE Basic Assets\Scripts and Animations\Doors\opencloseDoor1.cs" />
      <Compile Include="Assets\Scripts\Scene Transitions\i_block1.cs" />
+     <Compile Include="Assets\Mute.cs" />
      <Compile Include="Assets\Prefabs\Soja Exiles\SE Basic Assets\Scripts and Animations\Windows\opencloseWindow1.cs" />
      <None Include="Assets\Prefabs\People  (Kevin Iglesias)\3DCharacterDummy\Readme.txt" />
      <None Include="Assets\Materials\newShader.shader" />
