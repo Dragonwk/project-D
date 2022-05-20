@@ -4976,6 +4976,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8071232961071882794, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
+      propertyPath: block2
+      value: 
+      objectReference: {fileID: 1101789804}
+    - target: {fileID: 8071232961071882794, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: ledgers
       value: 
       objectReference: {fileID: 35820600}
@@ -11898,6 +11902,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5236607890322462856, guid: c9b8c9b2aa45ae8409e2ad8fe85c2536, type: 3}
   m_PrefabInstance: {fileID: 1100612417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1101789804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2418003232418380114, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
+  m_PrefabInstance: {fileID: 463104115}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1102422517
 PrefabInstance:
