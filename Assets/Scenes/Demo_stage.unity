@@ -525,7 +525,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &35820601
 Transform:
   m_ObjectHideFlags: 0
@@ -1954,7 +1954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &172709393
 Transform:
   m_ObjectHideFlags: 0
@@ -4897,15 +4897,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3169185568806223444, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3169185568806223444, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3169185568806223444, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.4482897
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3724145185467485785, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_Size
@@ -4959,18 +4959,26 @@ PrefabInstance:
       propertyPath: m_Value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7470371536860900933, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
+      propertyPath: ledgers
+      value: 
+      objectReference: {fileID: 2056576942}
     - target: {fileID: 8035130622523381870, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8035130622523381870, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8035130622523381870, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0.4482897
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8071232961071882794, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
+      propertyPath: ledgers
+      value: 
+      objectReference: {fileID: 35820600}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a563229bce52239479e7035b1a8d29c3, type: 3}
 --- !u!1001 &485324625
@@ -22856,7 +22864,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2056576943
 Transform:
   m_ObjectHideFlags: 0
