@@ -19,7 +19,7 @@ public class PanelOpener : MonoBehaviour
         if(DBox != null)
         {
             bool isActive = DBox.activeSelf;
-            TButton.SetActive(!isActive);
+            //TButton.SetActive(!isActive);
             O1.SetActive(!isActive);
             O2.SetActive(!isActive);
             O3.SetActive(!isActive);
@@ -53,7 +53,7 @@ public class PanelOpener : MonoBehaviour
             O2.SetActive(true);
             O3.SetActive(true);
             O4.SetActive(true);
-            TButton.SetActive(true);
+           // TButton.SetActive(true);
             DBox.SetActive(true);
             MM.SetActive(true);
         }
@@ -66,7 +66,7 @@ public class PanelOpener : MonoBehaviour
             O2.SetActive(false);
             O3.SetActive(false);
             O4.SetActive(false);
-            TButton.SetActive(false);
+            //TButton.SetActive(false);
             DBox.SetActive(false);
             MM.SetActive(false);
         }
