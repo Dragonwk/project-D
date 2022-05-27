@@ -27,8 +27,8 @@ public class i_block1 : MonoBehaviour
 
             bool isActive = block1.activeSelf;
 
-            block1.SetActive(!isActive);
-            ledgers.SetActive(isActive);
+            block1.SetActive(false);
+            ledgers.SetActive(true);
 
             block1.transform.hasChanged = false;
 

@@ -26,8 +26,8 @@ public class i_block2 : MonoBehaviour
             //SceneManager.UnloadScene("Art_stage2");
             bool isActive = block2.activeSelf;
 
-            block2.SetActive(!isActive);
-            ledgers.SetActive(isActive);
+            block2.SetActive(false);
+            ledgers.SetActive(true);
 
             block2.transform.hasChanged = false;
 
